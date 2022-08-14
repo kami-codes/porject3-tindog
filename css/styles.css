@@ -1,0 +1,244 @@
+body {
+    overflow-x: hidden;
+
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.header {
+
+    padding: 1rem 8rem !important;
+
+}
+
+.navbar-brand {
+    font-weight: thin;
+    font-size: 2rem !important;
+    letter-spacing: 2px;
+}
+
+.main-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    font-weight: 300;
+    color: aliceblue;
+    letter-spacing: 1px;
+    padding-right: 2rem !important;
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 4rem !important;
+    line-height: 1.5 !important;
+    font-weight: 900 !important;
+    color: white;
+
+}
+
+.tagline {
+    padding-left: 18%;
+    padding-top: 19%;
+    padding-bottom: 10%;
+}
+
+.download-buttons {
+    margin-top: 1rem;
+}
+
+.btf {
+    margin-left: 10px;
+}
+
+.ita {
+    margin-right: 3px;
+}
+
+.dog-img {
+    transform: rotate(25deg);
+    /* width: 60%; */
+    padding: 2rem;
+    position: absolute;
+}
+
+
+/* features wala section */
+
+#features {
+    position: relative !important;
+    z-index: 2;
+
+    background-color: white;
+}
+
+.feat {
+
+    text-align: center;
+    /* background-color: ; */
+    padding: 7% 4%;
+
+
+}
+
+.feat i {
+    color: #ef8172;
+}
+
+.feat h3 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.feat p {
+    color: #8f8f8f;
+}
+
+.feat i:hover {
+    color: #ff4c68
+}
+
+/* testimonials */
+
+.cour {
+    text-align: center;
+    padding: 5% 5%;
+    border: 2px solid #ef8172;
+
+}
+
+.cour h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: white;
+    padding: 2% 7%;
+}
+
+.cour img {
+    border-radius: 50%;
+    width: 10%;
+}
+
+.testi {
+    background-color: #ef8172;
+}
+
+.priss {
+    background-color: #ef8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.priss img {
+
+    width: 10%;
+
+}
+
+.card-deck {
+    padding-bottom: 4%;
+}
+
+.pricing-heading {
+    text-align: center;
+    padding-top: 4rem;
+    font-family: "Montserrat";
+
+}
+
+.pricing-heading h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.pricing-heading p {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.pricing-table {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.price-head h3 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 600 !important;
+    padding: 2% 0 !important;
+    margin-bottom: 0;
+}
+
+.card-body {
+    font-family: "Montserrat";
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0 5% 0;
+    margin-top: 1%;
+}
+
+#cta h3 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    /* background-color: #ff4c68; */
+    font-family: "Montserrat";
+    font-weight: 300;
+
+
+}
+
+.footy {
+    /* margin-bottom: 0; */
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.footy p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.social i {
+    margin-left: 20px;
+
+}
+.social i:hover{
+    cursor: pointer;
+}
+
+
+@media ( max-width: 1000px) {
+    .dog-img {
+        transform: rotate(0deg);
+        width: 50%;
+        position: static;
+
+    }
+    #title{
+        text-align: center;
+    }
+    .tagline{
+        padding-left: 0;
+        padding-bottom: 3rem;
+        padding-top: 4%;
+    }
+    #title{
+        padding-top: 2%;
+    }
+}
